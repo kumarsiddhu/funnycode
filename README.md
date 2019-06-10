@@ -1,2 +1,5 @@
 # funnycode
-enjoying the funny code 
+#  enjoying the funny code
+print ("i  am your favorite one ")
+
+
