@@ -1,0 +1,57 @@
+
+1995@DESKTOP-SANDEEP MINGW64 ~ (master)
+$ cd / c
+bash: cd: too many arguments
+
+1995@DESKTOP-SANDEEP MINGW64 ~ (master)
+$ cd
+
+1995@DESKTOP-SANDEEP MINGW64 ~ (master)
+$ cd/c
+bash: cd/c: No such file or directory
+
+1995@DESKTOP-SANDEEP MINGW64 ~ (master)
+$ cd /c
+
+1995@DESKTOP-SANDEEP MINGW64 /c
+$ ls
+'$GetCurrent'/              DRIVERS/       PerfLogs/               swapfile.sys                  Windows10Upgrade/
+'$Recycle.Bin'/             hiberfil.sys  'Program Files'/        'System Volume Information'/
+ bootmgr                    Intel/        'Program Files (x86)'/   test/
+ BOOTNXT                    MSOCache/      ProgramData/            Users/
+'Documents and Settings'@   pagefile.sys   Recovery/               Windows/
+
+1995@DESKTOP-SANDEEP MINGW64 /c
+$ cd test/
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test
+$ ls
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test
+$ git config --global user.name "kumarsiddhu"
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test
+$ git config --global user.email naveensiddhu20@gmail.com
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test
+$ git clone https://github.com/kumarsiddhu/funnycode.git
+Cloning into 'funnycode'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test
+$ ls
+funnycode/
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test
+$ cd funnycode
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test/funnycode (master)
+$ ls
+README.md
+
+1995@DESKTOP-SANDEEP MINGW64 /c/test/funnycode (master)
+$
